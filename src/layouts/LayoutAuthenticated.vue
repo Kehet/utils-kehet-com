@@ -4,21 +4,12 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import menuAside from "@/menuAside.js";
 import menuNavBar from "@/menuNavBar.js";
-import { useMainStore } from "@/stores/main.js";
 import { useStyleStore } from "@/stores/style.js";
 import BaseIcon from "@/components/BaseIcon.vue";
-import FormControl from "@/components/FormControl.vue";
 import NavBar from "@/components/NavBar.vue";
 import NavBarItemPlain from "@/components/NavBarItemPlain.vue";
 import AsideMenu from "@/components/AsideMenu.vue";
 import FooterBar from "@/components/FooterBar.vue";
-
-useMainStore().setUser({
-  name: "John Doe",
-  email: "john@example.com",
-  avatar:
-    "https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[accessoriesChance]=93",
-});
 
 const layoutAsidePadding = "xl:pl-60";
 
@@ -79,14 +70,6 @@ const menuClick = (event, item) => {
         >
           <BaseIcon :path="mdiMenu" size="24" />
         </NavBarItemPlain>
-        <NavBarItemPlain use-margin>
-          <FormControl
-            placeholder="Search (ctrl+k)"
-            ctrl-k-focus
-            transparent
-            borderless
-          />
-        </NavBarItemPlain>
       </NavBar>
       <AsideMenu
         :is-aside-mobile-expanded="isAsideMobileExpanded"
@@ -96,15 +79,7 @@ const menuClick = (event, item) => {
         @aside-lg-close-click="isAsideLgActive = false"
       />
       <slot />
-      <FooterBar>
-        Get more with
-        <a
-          href="https://tailwind-vue.justboil.me/"
-          target="_blank"
-          class="text-blue-600"
-          >Premium version</a
-        >
-      </FooterBar>
+      <FooterBar />
     </div>
   </div>
 </template>
