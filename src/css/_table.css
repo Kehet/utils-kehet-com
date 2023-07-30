@@ -33,7 +33,6 @@
     @apply border-b-0;
   }
 
-
   td:before {
     content: attr(data-label);
     @apply font-semibold pr-3 text-left lg:hidden;

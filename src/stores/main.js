@@ -6,6 +6,5 @@ export const useMainStore = defineStore("main", {
     /* Field focus with ctrl+k (to register only once) */
     isFieldFocusRegistered: false,
   }),
-  actions: {
-  },
+  actions: {},
 });

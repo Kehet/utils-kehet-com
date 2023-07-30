@@ -21,14 +21,14 @@ onMounted(() => {
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-      <SectionTitleLineWithButton
-        title="Overview"
-        main
-      >
+      <SectionTitleLineWithButton title="Overview" main>
       </SectionTitleLineWithButton>
       <CardBox>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consequuntur deleniti eius eligendi, error eveniet facere ipsam libero molestiae nostrum provident quasi quod ratione repellendus tempore veniam vero voluptate.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+          asperiores consequuntur deleniti eius eligendi, error eveniet facere
+          ipsam libero molestiae nostrum provident quasi quod ratione
+          repellendus tempore veniam vero voluptate.
         </p>
       </CardBox>
     </SectionMain>

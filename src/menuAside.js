@@ -11,4 +11,9 @@ export default [
     icon: mdiMonitor,
     label: "Resistors",
   },
+  {
+    to: "/math",
+    icon: mdiMonitor,
+    label: "Math",
+  },
 ];

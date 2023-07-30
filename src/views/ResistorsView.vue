@@ -89,10 +89,7 @@ const max = computed(() => {
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-      <SectionTitleLineWithButton
-        title="Resistor band colors"
-        main
-      />
+      <SectionTitleLineWithButton title="Resistor band colors" main />
 
       <SectionMain>
         <CardBox class="md:mx-auto">
