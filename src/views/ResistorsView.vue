@@ -98,8 +98,7 @@ const max = computed(() => {
               v-for="count in [3, 4, 5, 6]"
               :key="count"
               :label="count + ' bands'"
-              color="contrast"
-              :active="bandCount === count"
+              :color="bandCount === count ? 'danger' : 'contrast'"
               @click="bandCount = count"
             />
           </BaseButtons>

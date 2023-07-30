@@ -24,14 +24,14 @@ const form = reactive({
       in-between to values in-between, etc.
     </p>
     <pre class="text-xl">
-      ({{ form.value }} - {{ form.fromLow }}) * ({{ form.toHigh }} - {{
+({{ form.value }} - {{ form.fromLow }}) * ({{ form.toHigh }} - {{
         form.toLow
       }}) / ({{ form.fromHigh }} - {{ form.fromLow }}) + {{ form.toLow }} = {{
         ((form.value - form.fromLow) * (form.toHigh - form.toLow)) /
           (form.fromHigh - form.fromLow) +
         form.toLow
-      }}
-    </pre>
+      }}</pre
+    >
   </SectionTitle>
 
   <SectionMain>

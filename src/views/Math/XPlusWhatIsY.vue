@@ -18,10 +18,10 @@ const form = ref({
       X plus what % is Y
     </h1>
     <pre class="text-xl">
-      ({{ form.y }} / {{ form.x }} - 1) * 100 = {{
+({{ form.y }} / {{ form.x }} - 1) * 100 = {{
         (form.y / form.x - 1) * 100
-      }}%
-    </pre>
+      }}%</pre
+    >
   </SectionTitle>
 
   <SectionMain>

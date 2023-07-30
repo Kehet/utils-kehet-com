@@ -17,11 +17,11 @@ const form = ref({
     <h1 class="text-3xl text-gray-500 dark:text-slate-400 mb-4">
       X plus P% is what
     </h1>
-    <pre class="text-xl">
-      {{ form.x }} * (1 + ({{ form.p }}% / 100)) = {{
+    <pre class="text-xl"
+      >{{ form.x }} * (1 + ({{ form.p }}% / 100)) = {{
         form.x * (1 + form.p / 100)
-      }}
-    </pre>
+      }}</pre
+    >
   </SectionTitle>
 
   <SectionMain>

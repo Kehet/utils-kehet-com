@@ -15,11 +15,11 @@ const form = ref({
 <template>
   <SectionTitle custom>
     <h1 class="text-3xl text-gray-500 dark:text-slate-400 mb-4">
-      Y out of x is what %
+      Y out of X is what %
     </h1>
-    <pre class="text-xl">
-      {{ form.y }} / {{ form.x }} * 100 = {{ (form.y / form.x) * 100 }}%
-    </pre>
+    <pre class="text-xl"
+      >{{ form.y }} / {{ form.x }} * 100 = {{ (form.y / form.x) * 100 }}%</pre
+    >
   </SectionTitle>
 
   <SectionMain>

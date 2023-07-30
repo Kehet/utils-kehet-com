@@ -17,18 +17,20 @@ const form = ref({
     <h1 class="text-3xl text-gray-500 dark:text-slate-400 mb-4">
       What minus P% is Y
     </h1>
-    <pre class="text-xl">
-      {{ form.y }} / (1  - ({{ form.p }}% / 100)) = {{ form.y / (1 - form.p / 100) }}
-    </pre>
+    <pre class="text-xl"
+      >{{ form.y }} / (1  - ({{ form.p }}% / 100)) = {{
+        form.y / (1 - form.p / 100)
+      }}</pre
+    >
   </SectionTitle>
 
   <SectionMain>
     <CardBox class="md:mx-auto">
-      <FormField label="Y">
-        <FormControl v-model="form.y" type="number" />
-      </FormField>
       <FormField label="P">
         <FormControl v-model="form.p" type="number" />
+      </FormField>
+      <FormField label="Y">
+        <FormControl v-model="form.y" type="number" />
       </FormField>
     </CardBox>
   </SectionMain>

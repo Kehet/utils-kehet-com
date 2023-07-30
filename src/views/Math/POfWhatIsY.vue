@@ -17,9 +17,9 @@ const form = ref({
     <h1 class="text-3xl text-gray-500 dark:text-slate-400 mb-4">
       P% of what is Y
     </h1>
-    <pre class="text-xl">
-      {{ form.y }} / ({{ form.p }}% / 100) = {{ form.y / (form.p / 100) }}
-    </pre>
+    <pre class="text-xl"
+      >{{ form.y }} / ({{ form.p }}% / 100) = {{ form.y / (form.p / 100) }}</pre
+    >
   </SectionTitle>
 
   <SectionMain>
