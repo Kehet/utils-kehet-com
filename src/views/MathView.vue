@@ -101,8 +101,8 @@ const tabs = [
     <what-plus-p-is-y v-if="selected === '11-1'" />
 
     <!-- X - (X * P%) = Y -->
-    <x-minus-p-is-what v-if="selected === '0-5'" />
-    <x-minus-what-is-y v-if="selected === '1-5'" />
-    <what-minus-p-is-y v-if="selected === '2-5'" />
+    <x-minus-p-is-what v-if="selected === '12-1'" />
+    <x-minus-what-is-y v-if="selected === '13-1'" />
+    <what-minus-p-is-y v-if="selected === '14-1'" />
   </LayoutAuthenticated>
 </template>
