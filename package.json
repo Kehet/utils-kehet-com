@@ -10,7 +10,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@mdi/js": "^7.0.96",
+    "@mdi/js": "^7.3.67",
     "@rushstack/eslint-patch": "^1.5.1",
     "axios": "^1.5.1",
     "chart.js": "^4.4.0",
