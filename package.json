@@ -12,7 +12,7 @@
   "dependencies": {
     "@mdi/js": "^7.3.67",
     "@rushstack/eslint-patch": "^1.5.1",
-    "axios": "^1.5.1",
+    "axios": "^1.6.0",
     "chart.js": "^4.4.0",
     "numeral": "^2.0.6",
     "pinia": "^2.1.7",
