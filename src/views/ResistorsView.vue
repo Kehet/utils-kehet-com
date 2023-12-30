@@ -70,8 +70,8 @@ const min = computed(() => {
   return parseFloat(
     String(
       resistance.value -
-        (resistance.value / 100) * rows.value[selected.value[5]].tolerance
-    )
+        (resistance.value / 100) * rows.value[selected.value[5]].tolerance,
+    ),
   ).toFixed(3);
 });
 
@@ -81,7 +81,7 @@ const max = computed(() => {
   }
   return parseFloat(
     resistance.value +
-      (resistance.value / 100) * rows.value[selected.value[5]].tolerance
+      (resistance.value / 100) * rows.value[selected.value[5]].tolerance,
   ).toFixed(3);
 });
 </script>

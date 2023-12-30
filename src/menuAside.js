@@ -7,6 +7,11 @@ export default [
     label: "Home",
   },
   {
+    to: "/counters",
+    icon: mdiMonitor,
+    label: "Counters",
+  },
+  {
     to: "/resistors",
     icon: mdiMonitor,
     label: "Resistors",
