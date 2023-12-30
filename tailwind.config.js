@@ -54,7 +54,7 @@ module.exports = {
             return {
               scrollbarWidth: "thin",
               scrollbarColor: `${theme(`colors.${color}.${thumb}`)} ${theme(
-                `colors.${color}.${track}`
+                `colors.${color}.${track}`,
               )}`,
               "&::-webkit-scrollbar": {
                 width: "8px",
@@ -70,7 +70,7 @@ module.exports = {
             };
           },
         },
-        { values: theme("asideScrollbars") }
+        { values: theme("asideScrollbars") },
       );
     }),
   ],

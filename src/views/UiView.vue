@@ -37,39 +37,39 @@ const modalThreeActive = ref(false);
 const notificationSettingsModel = ref([]);
 
 const notificationsOutline = computed(
-  () => notificationSettingsModel.value.indexOf("outline") > -1
+  () => notificationSettingsModel.value.indexOf("outline") > -1,
 );
 
 const buttonSettingsModel = ref([]);
 
 const buttonsOutline = computed(
-  () => buttonSettingsModel.value.indexOf("outline") > -1
+  () => buttonSettingsModel.value.indexOf("outline") > -1,
 );
 
 const buttonsSmall = computed(
-  () => buttonSettingsModel.value.indexOf("small") > -1
+  () => buttonSettingsModel.value.indexOf("small") > -1,
 );
 
 const buttonsDisabled = computed(
-  () => buttonSettingsModel.value.indexOf("disabled") > -1
+  () => buttonSettingsModel.value.indexOf("disabled") > -1,
 );
 
 const buttonsRounded = computed(
-  () => buttonSettingsModel.value.indexOf("rounded") > -1
+  () => buttonSettingsModel.value.indexOf("rounded") > -1,
 );
 
 const pillsSettingsModel = ref(["icon"]);
 
 const pillsOutline = computed(
-  () => pillsSettingsModel.value.indexOf("outline") > -1
+  () => pillsSettingsModel.value.indexOf("outline") > -1,
 );
 
 const pillsSmall = computed(
-  () => pillsSettingsModel.value.indexOf("small") > -1
+  () => pillsSettingsModel.value.indexOf("small") > -1,
 );
 
 const pillsIcon = computed(() =>
-  pillsSettingsModel.value.indexOf("icon") > -1 ? mdiTrendingUp : null
+  pillsSettingsModel.value.indexOf("icon") > -1 ? mdiTrendingUp : null,
 );
 
 const styleStore = useStyleStore();

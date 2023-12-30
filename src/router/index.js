@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import ResistorsView from "@/views/ResistorsView.vue";
 import MathView from "@/views/MathView.vue";
+import CounterView from "@/views/CounterView.vue";
 
 const routes = [
   {
@@ -16,6 +17,14 @@ const routes = [
     path: "/resistors",
     name: "resistors",
     component: ResistorsView,
+  },
+  {
+    meta: {
+      title: "Counters",
+    },
+    path: "/counters",
+    name: "counters",
+    component: CounterView,
   },
   {
     meta: {

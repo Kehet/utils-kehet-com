@@ -78,7 +78,7 @@ const inputElClass = computed(() => {
 const computedType = computed(() => (props.options ? "select" : props.type));
 
 const controlIconH = computed(() =>
-  props.type === "textarea" ? "h-full" : "h-12"
+  props.type === "textarea" ? "h-full" : "h-12",
 );
 
 const mainStore = useMainStore();
