@@ -77,16 +77,3 @@ jobs:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
           DEPLOY_HEALTH_CHECK: ${{ secrets.DEPLOY_HEALTH_CHECK }}
           DEPLOY_TAG: ${{ steps.title.outputs.pr_title }}
-
-      - name: Send Telegram Notification on New Release
-        uses: cbrgm/telegram-github-action@lv1.0
-        with:
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          message: |
-            🚀 New Release Published!
-            Release Name: ${{ github.event.release.name }}
-            Tag: ${{ github.event.release.tag_name }}
-            Actor: ${{ github.actor }}
-            Repository: ${{ github.repository }}
-            Check it out: ${{ github.event.release.html_url }}j
