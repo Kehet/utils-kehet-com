@@ -13,7 +13,7 @@
     "@mdi/js": "^7.4.47",
     "@rushstack/eslint-patch": "^1.10.3",
     "axios": "^1.6.8",
-    "chart.js": "^4.4.2",
+    "chart.js": "^4.4.3",
     "numeral": "^2.0.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.27",
