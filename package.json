@@ -12,6 +12,7 @@
   "dependencies": {
     "@mdi/js": "^7.4.47",
     "@rushstack/eslint-patch": "^1.10.5",
+    "@tailwindcss/postcss": "^4.0.0",
     "axios": "^1.7.9",
     "chart.js": "^4.4.7",
     "numeral": "^2.0.6",
