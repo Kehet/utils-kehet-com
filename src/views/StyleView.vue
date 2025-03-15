@@ -34,7 +34,7 @@ const click = (slug) => {
         </h1>
         <h2 class="text-xl md:text-xl text-center text-white mb-12">
           Style switching with a single
-          <code class="px-1.5 py-0.5 rounded bg-white bg-opacity-20"
+          <code class="px-1.5 py-0.5 rounded-sm bg-white bg-opacity-20"
             >action()</code
           >
         </h2>
