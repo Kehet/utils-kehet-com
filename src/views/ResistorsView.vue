@@ -160,7 +160,7 @@ const max = computed(() => {
                     type="button"
                     class="py-2 px-4 w-full"
                     :class="{
-                      'bg-gray-700 text-white rounded': selected[i] === key,
+                      'bg-gray-700 text-white rounded-sm': selected[i] === key,
                     }"
                     @click="selected[i] = key"
                     v-html="row['col' + i]"

@@ -92,7 +92,7 @@ const checked = (isChecked, client) => {
     <span
       v-for="checkedRow in checkedRows"
       :key="checkedRow.id"
-      class="inline-block px-2 py-1 rounded-sm mr-2 text-sm bg-gray-100 dark:bg-slate-700"
+      class="inline-block px-2 py-1 rounded-xs mr-2 text-sm bg-gray-100 dark:bg-slate-700"
     >
       {{ checkedRow.name }}
     </span>

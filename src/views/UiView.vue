@@ -55,7 +55,7 @@ const buttonsDisabled = computed(
 );
 
 const buttonsRounded = computed(
-  () => buttonSettingsModel.value.indexOf("rounded") > -1,
+  () => buttonSettingsModel.value.indexOf("rounded-sm") > -1,
 );
 
 const pillsSettingsModel = ref(["icon"]);
